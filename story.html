@@ -1,0 +1,94 @@
+﻿<html>
+<head>
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+.header, .footer {
+    background-color:LightPink ;
+    color: white ;
+    padding: 10px;
+	text-align: center;
+	text-shadow: 3px 5px DeepPink  ;
+	font-size: 2vw;
+	 font-style: italic;
+}
+
+.column {
+    float:left ;
+    padding: 20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 15%;
+}
+.content {
+    width: 100%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: Gold   ;
+    color: white;
+}
+.menu li:hover {
+    background-color: red;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Tell my story</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+     <a href ="friend.html">
+       <li>My best friend</li>
+      </a>
+      <a href="https://www.youtube.com/watch?v=YfDqONbzYPc">
+<li>My favorite music</li>
+</a>
+      <a href="color.html">
+      <li>My favorite color</li>
+      </a>
+     <a href="hom.html">
+      <li>Home</li>
+     </a>
+    </ul>
+  </div>
+<div class="col-6 col-s-9">
+  <h1 style="color:LightSeaGreen ;">My Video</h1>
+  <h2 style="color:LightSeaGreen;">เป็นคนเรียบร้อย พูดน้อยยิ้มเก่ง.</h2>
+  <video width="200" controls>
+    <source src="ii.mp4" type="video/mp4">
+    <source src="ii.mp4" type="video/ogg">
+    
+  </video>
+ 
+
+</div>
+<body>
+
+
+<div class="footer">
+  <h4><b>Thank you for visiting my story</b></h4>
+</div>
+
+</body>
+</html>
